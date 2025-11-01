@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 # PAGE CONFIG
 
@@ -78,10 +78,7 @@ st.sidebar.write(
 )
 
 # LOAD MODEL
-
-model = pickle.load(open('ev_range_predictor.pkl','rb'))
-
-
+model = joblib.load('ev_range_predictor.pkl')
 
 # MAIN TITLE
 
