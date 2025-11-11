@@ -27,3 +27,6 @@ Add more advanced models (e.g., Random Forest, XGBoost)
 Incorporate weather or terrain effects
 Build an API for EV manufacturers to connect directly
 Create a mobile-friendly interface
+
+## Streamlit Link
+https://annbridget--electric-vehicle-range-pre-ev-prediction-app-vddrdu.streamlit.app/
